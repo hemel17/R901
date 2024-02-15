@@ -158,3 +158,46 @@ main {
   }
   /* party-main design ends here */
 
+  /* time-main design starts here */
+.time {
+    margin-top: 120px;
+    width: 100%;
+    height: 482px;
+    background-image: linear-gradient(
+      180deg,
+      rgba(255, 0, 0, 0.1) 0%,
+      rgba(255, 0, 0, 0) 100%
+    );
+    border-radius: 32px;
+    font-family: Inter;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+  }
+  
+  .time-tiems {
+    color: #070211;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+  }
+  
+  .red {
+    color: #f00;
+  }
+  
+  .time button {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    background: #f00;
+    padding: 16px 32px;
+    cursor: pointer;
+  }
+  /* time-main design ends here */
