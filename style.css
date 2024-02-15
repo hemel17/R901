@@ -396,3 +396,63 @@ main {
   box-shadow: 5px 5px 10px;
 }
 /* portfolio-main design ends here */
+
+/* newsletter-main desing starts here */
+.newsletter{
+    margin-top: 120px;
+    border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  height: 616px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .newsletter h2{
+    color: #070211;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  margin-top: 40px;
+  }
+  
+  .newsletter p:nth-of-type(1){
+    color: rgba(7, 2, 17, 0.60);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  width: 896px;
+  margin-bottom: 48px;
+  }
+  
+  .newsletter p:nth-of-type(2)>*{
+    padding: 15px 30px;
+    border: none;
+    outline: none;
+  }
+  
+  .newsletter input{
+    border-radius: 50px 0 0 50px;
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  }
+  
+  .newsletter button{
+    color: #FFF;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  border-radius: 0px 50px 50px 0px;
+  background: #F00;
+  cursor: pointer;
+  }
+  /* newsletter-main desing ends here */
+  
+  /* main design ends here */
