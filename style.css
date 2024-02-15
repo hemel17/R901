@@ -14,342 +14,385 @@ body {
 
 /* header design strats here */
 header {
-    margin: 50px 10%;
-    color: #fff;
-    text-align: center;
-    font-family: Merriweather;
-  }
-  
-  .banner-container {
-    position: relative;
-    text-align: center;
-    overflow: hidden;
-    border-radius: 16px;
-  }
-  
-  .banner-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  }
-  
-  header img {
-    width: 100%;
-  }
-  
-  .banner-item {
-    width: 632px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
-  }
-  
-  .banner-item h2 {
-    font-size: 32px;
-    font-weight: 400;
-  }
-  
-  .banner-item h1 {
-    font-size: 72px;
-    font-weight: 900;
-    line-height: 95px;
-  }
-  /* header design ends here */
+  margin: 50px 10%;
+  color: #fff;
+  text-align: center;
+  font-family: Merriweather;
+}
 
-  /* main design starts here */
+.banner-container {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.banner-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+header img {
+  width: 100%;
+}
+
+.banner-item {
+  width: 632px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.banner-item h2 {
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.banner-item h1 {
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+}
+/* header design ends here */
+
+/* main design starts here */
 main {
-    margin: 120px 10%;
-  }
-  
-  /* discount-main design starts here */
-  .discount {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: Inter;
-    color: #f00;
-  }
-  
-  .discount h2 {
-    font-size: 88px;
-    font-weight: 700;
-    margin-bottom: 48px;
-  }
-  
-  .discount-holiday {
-    font-size: 24px;
-    font-weight: 500;
-  }
-  
-  .categories {
-    color: #070211;
-    font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 48px;
-  }
-  
-  .discount img {
-    width: 500px;
-  }
-  /* discount-main design ends here */
+  margin: 120px 10%;
+}
 
-  /* party-main design starts here */
+/* discount-main design starts here */
+.discount {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Inter;
+  color: #f00;
+}
+
+.discount h2 {
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.discount-holiday {
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.categories {
+  color: #070211;
+  font-size: 48px;
+  font-weight: 700;
+  margin-bottom: 48px;
+}
+
+.discount img {
+  width: 500px;
+}
+/* discount-main design ends here */
+
+/* party-main design starts here */
 .party {
-    margin-top: 120px;
-    position: relative;
-    color: #fff;
-    font-family: Inter;
-    overflow: hidden;
-    border-radius: 32px;
-  }
-  
-  .party::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
-  }
-  
-  .party img {
-    width: 100%;
-  }
-  
-  .party-items {
-    position: absolute;
-    top: 15%;
-    left: 10%;
-  }
-  
-  .party-items h2 {
-    width: 642px;
-    font-family: Merriweather;
-    font-size: 64px;
-    font-weight: 900;
-    line-height: 88px;
-    letter-spacing: 7.04px;
-  }
-  
-  .party-items p {
-    width: 697px;
-    color: rgba(255, 255, 255, 0.8);
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    margin: 24px 0 48px 0;
-  }
-  
-  .party-items button {
-    background-color: transparent;
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-  }
-  /* party-main design ends here */
+  margin-top: 120px;
+  position: relative;
+  color: #fff;
+  font-family: Inter;
+  overflow: hidden;
+  border-radius: 32px;
+}
 
-  /* time-main design starts here */
+.party::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+}
+
+.party img {
+  width: 100%;
+}
+
+.party-items {
+  position: absolute;
+  top: 15%;
+  left: 10%;
+}
+
+.party-items h2 {
+  width: 642px;
+  font-family: Merriweather;
+  font-size: 64px;
+  font-weight: 900;
+  line-height: 88px;
+  letter-spacing: 7.04px;
+}
+
+.party-items p {
+  width: 697px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+  margin: 24px 0 48px 0;
+}
+
+.party-items button {
+  background-color: transparent;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+/* party-main design ends here */
+
+/* time-main design starts here */
 .time {
-    margin-top: 120px;
-    width: 100%;
-    height: 482px;
-    background-image: linear-gradient(
-      180deg,
-      rgba(255, 0, 0, 0.1) 0%,
-      rgba(255, 0, 0, 0) 100%
-    );
-    border-radius: 32px;
-    font-family: Inter;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 48px;
-  }
-  
-  .time-tiems {
-    color: #070211;
-    font-size: 32px;
-    font-weight: 600;
-    line-height: 56px;
-    text-transform: capitalize;
-  }
-  
-  .red {
-    color: #f00;
-  }
-  
-  .time button {
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    text-transform: uppercase;
-    border: none;
-    border-radius: 8px;
-    background: #f00;
-    padding: 16px 32px;
-    cursor: pointer;
-  }
-  /* time-main design ends here */
+  margin-top: 120px;
+  width: 100%;
+  height: 482px;
+  background-image: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  border-radius: 32px;
+  font-family: Inter;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 48px;
+}
 
-  /* offer-main design starts here */
+.time-tiems {
+  color: #070211;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  text-transform: capitalize;
+}
+
+.red {
+  color: #f00;
+}
+
+.time button {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 8px;
+  background: #f00;
+  padding: 16px 32px;
+  cursor: pointer;
+}
+/* time-main design ends here */
+
+/* offer-main design starts here */
 .offer {
-    margin-top: 120px;
-    display: flex;
-    align-items: center;
-    gap: 5%;
-    font-family: Inter;
-  }
-  
-  .coming {
-    width: 33%;
-  }
-  
-  .coming-offer {
-    color: #f00;
-    font-size: 24px;
-    font-weight: 500;
-  }
-  
-  .coming h2 {
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 48px;
-    font-weight: 900;
-    text-transform: capitalize;
-  }
-  
-  .offer-common {
-    color: rgba(7, 2, 17, 0.6);
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
-    margin-top: 22px;
-  }
-  
-  .offer-img {
-    width: 33%;
-    border-radius: 50%;
-    border: 15px solid #f00;
-    padding: 15px;
-  }
-  
-  .offer-img img {
-    width: 100%;
-  }
-  
-  .offer-year {
-    width: 33%;
-  }
-  
-  .offer-year .year {
-    color: #f00;
-    font-size: 48px;
-    font-weight: 700;
-  }
-  
-  .offer-year img {
-    margin-top: 20px;
-  }
-  /* offer-main design ends here */
+  margin-top: 120px;
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  font-family: Inter;
+}
 
-  /* holiday-main design starts here */
+.coming {
+  width: 33%;
+}
+
+.coming-offer {
+  color: #f00;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.coming h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+  text-transform: capitalize;
+}
+
+.offer-common {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-top: 22px;
+}
+
+.offer-img {
+  width: 33%;
+  border-radius: 50%;
+  border: 15px solid #f00;
+  padding: 15px;
+}
+
+.offer-img img {
+  width: 100%;
+}
+
+.offer-year {
+  width: 33%;
+}
+
+.offer-year .year {
+  color: #f00;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.offer-year img {
+  margin-top: 20px;
+}
+/* offer-main design ends here */
+
+/* holiday-main design starts here */
 .holiday {
-    margin-top: 120px;
-    font-family: Inter;
-    text-align: center;
-  }
-  
-  .holiday .holiday-function {
-    color: #070211;
-    font-size: 24px;
-    font-weight: 500;
-  }
-  
-  .holiday h2 {
-    color: #070211;
-    font-family: Merriweather;
-    font-size: 72px;
-    font-weight: 900;
-    margin-bottom: 22px;
-  }
-  
-  .holiday h2 span {
-    color: #f00;
-  }
-  
-  .holiday p {
-    color: rgba(7, 2, 17, 0.6);
-    font-size: 20px;
-    font-weight: 500;
-    line-height: 32px;
-    margin-bottom: 64px;
-  }
-  
-  .holiday-img {
-    width: 100%;
-    position: relative;
-    height: 620px;
-  }
-  
-  .holiday-img div {
-    position: absolute;
-    top: 10%;
-    right: 30%;
-    border-radius: 50%;
-    background-color: #f00;
-    z-index: 3;
-    width: 200px;
-    height: 200px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 5px solid #fff;
-  }
-  
-  .holiday-img p {
-    color: #fff;
-    font-family: Inter;
-    font-size: 24.338px;
-    font-weight: 900;
-    text-transform: uppercase;
-    transform: translate(0px, 40px) rotate(45deg);
-  }
-  
-  .holiday p span {
-    font-size: 73.015px;
-    font-weight: 700;
-  }
-  
-  .holiday-img img {
-    max-width: 100%;
-    position: absolute;
-  }
-  
-  .holiday-img1 {
-    left: 0;
-    top: 0;
-    z-index: 1;
-  }
-  
-  .holiday-img2 {
-    top: 0;
-    right: 0;
-    z-index: 2;
-  }
-  
-  .holiday-img3 {
-    left: 0;
-    bottom: 0;
-  }
-  /* holiday-main design ends here */
+  margin-top: 120px;
+  font-family: Inter;
+  text-align: center;
+}
+
+.holiday .holiday-function {
+  color: #070211;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.holiday h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  margin-bottom: 22px;
+}
+
+.holiday h2 span {
+  color: #f00;
+}
+
+.holiday p {
+  color: rgba(7, 2, 17, 0.6);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 32px;
+  margin-bottom: 64px;
+}
+
+.holiday-img {
+  width: 100%;
+  position: relative;
+  height: 620px;
+}
+
+.holiday-img div {
+  position: absolute;
+  top: 10%;
+  right: 30%;
+  border-radius: 50%;
+  background-color: #f00;
+  z-index: 3;
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 5px solid #fff;
+}
+
+.holiday-img p {
+  color: #fff;
+  font-family: Inter;
+  font-size: 24.338px;
+  font-weight: 900;
+  text-transform: uppercase;
+  transform: translate(0px, 40px) rotate(45deg);
+}
+
+.holiday p span {
+  font-size: 73.015px;
+  font-weight: 700;
+}
+
+.holiday-img img {
+  max-width: 100%;
+  position: absolute;
+}
+
+.holiday-img1 {
+  left: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.holiday-img2 {
+  top: 0;
+  right: 0;
+  z-index: 2;
+}
+
+.holiday-img3 {
+  left: 0;
+  bottom: 0;
+}
+/* holiday-main design ends here */
+
+/* portfolio-main design starts here */
+.portfolio {
+  margin-top: 120px;
+}
+
+.portfolio-gift {
+  color: #f00;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.portfolio h2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 48px;
+  font-weight: 900;
+}
+
+.portfolio p:nth-of-type(2) {
+  color: rgba(7, 2, 17, 0.6);
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+  margin: 48px 0;
+}
+
+.portfolio-img {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2%;
+}
+
+.portfolio-img img {
+  width: 100%;
+}
+
+.portfolio-img img:hover {
+  box-shadow: 5px 5px 10px;
+}
+/* portfolio-main design ends here */
