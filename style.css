@@ -61,3 +61,41 @@ header {
     line-height: 95px;
   }
   /* header design ends here */
+
+  /* main design starts here */
+main {
+    margin: 120px 10%;
+  }
+  
+  /* discount-main design starts here */
+  .discount {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter;
+    color: #f00;
+  }
+  
+  .discount h2 {
+    font-size: 88px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .discount-holiday {
+    font-size: 24px;
+    font-weight: 500;
+  }
+  
+  .categories {
+    color: #070211;
+    font-size: 48px;
+    font-weight: 700;
+    margin-bottom: 48px;
+  }
+  
+  .discount img {
+    width: 500px;
+  }
+  /* discount-main design ends here */
