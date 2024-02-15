@@ -127,7 +127,8 @@ main {
 .party-items {
   position: absolute;
   top: 15%;
-  left: 10%;
+  left: 5%;
+  display: flex;
 }
 
 .party-items h2 {
@@ -456,3 +457,29 @@ main {
   /* newsletter-main desing ends here */
   
   /* main design ends here */
+
+  /* footer design starts here */
+footer{
+    background: #070211;
+    height: 609px;
+    color: #FFF;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 40px;
+  padding: 120px 10%;
+  }
+  
+  .address{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-img{
+    margin: 80px 0;
+    display: flex;
+    justify-content: center;
+    gap: 2%;
+  }
+  
+  /* footer design ends here */
